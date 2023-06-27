@@ -29,6 +29,7 @@ export default function Demo5() {
     anime({
       targets: e.target,
       fill: "#aa2222",
+      scale: 1.005,
       duration: 1500,
     });
   };
@@ -37,6 +38,7 @@ export default function Demo5() {
     anime({
       targets: e.target,
       fill: "#ffffff",
+      scale: 1,
       duration: 10000,
     });
   };
