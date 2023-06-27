@@ -28,7 +28,7 @@ export default function Demo5() {
   const handleMouseOver = (e: any) => {
     anime({
       targets: e.target,
-      fill: "#aa2222",
+      fill: "#ffff00",
       scale: 1.005,
       duration: 1500,
     });
